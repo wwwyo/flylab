@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.local
+*.log
+
+# brain datasets / large artifacts are fetched at runtime, never tracked
+fly-data/
+*.npz
+data/
