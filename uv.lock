@@ -1,19 +1,19 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.13"
 
 [[package]]
 name = "flybrain"
-version = "0.1.0"
+version = "0.1.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "numba" },
     { name = "numpy" },
     { name = "scipy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b5/5e/8405563a5091198347f320d00aad1585f9cc1c73151107d122e2747a4e68/flybrain-0.1.0.tar.gz", hash = "sha256:a136ed2fe8f0ec79cc353148b027636d93cfe8c951c3c58534f9db9459d15ac4", size = 30216, upload-time = "2026-09-13T11:01:08.523Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/bd/ad/34c0a73207018381cd28c33a67ca691628f13f25e9b3522126a6f74ca8e5/flybrain-0.1.1.tar.gz", hash = "sha256:e261fc2df42e181951c4f81485610dc56a223e4b923aa589d35ebc5bb464761d", size = 50473, upload-time = "2026-11-11T14:31:06.442Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8c/f0/4918d0c2128dbebce21bb30574ed2370ac3b646187d4893fac9edf322757/flybrain-0.1.0-py3-none-any.whl", hash = "sha256:0fd665df6f4f834e6c85eb25482e82ef0be505ecb63004387d4be9ea787a0a1f", size = 22872, upload-time = "2026-09-13T11:01:07.109Z" },
+    { url = "https://files.pythonhosted.org/packages/1e/93/408a3164b93b6b0cc632500384ff80654d19c978453020694fc0f5cc7d37/flybrain-0.1.1-py3-none-any.whl", hash = "sha256:b3126f87bf44ae9a844f750631885f9298a3d5bbd7f964ee757e88f06eb7a3dc", size = 31765, upload-time = "2026-11-11T14:31:05.244Z" },
 ]
 
 [[package]]
@@ -25,7 +25,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "flybrain", specifier = "==0.1.0" }]
+requires-dist = [{ name = "flybrain", specifier = "==0.1.1" }]
 
 [[package]]
 name = "llvmlite"
